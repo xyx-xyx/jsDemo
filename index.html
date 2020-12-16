@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>职场培训课程</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/synthesize.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container clear">
+			<div class="logo">
+				<img class = "logo1" width="80px" height="40px" src="images/前程无忧LOGO.png"/>
+				<img  class="logo2" width="100px" height="40px" src="images/无忧学院Logo.png"/>
+			</div>
+			<ul class="nav">
+				<li id="first"><a href="#">推荐</a></li>
+				<li><a href="#">求职面试</a></li>
+				<li><a href="#">岗位提升</a></li>
+				<li><a href="#">职场提升</a></li>
+				<li><a href="#">学习考证</a></li>
+				<li><a href="#">全部课程</a></li>
+			</ul>
+			<form class="form">
+				<input type="text" placeholder="面试中的说话之道" class="search" />
+				<input type="button" class="submit"/>
+			</form>
+			<ul class="nav2 clear">
+				<li><a href="denglu.html">登录/注册</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner" >
+		<div class="contain" >
+			<div class="lunboAll" id="bannerBox">
+				<div class="lunbo">
+					<ul>
+						<li><a href="#"><img height="420px" width="1200px" src="images/bannner图.png"></a></li>
+						<li><a href="#"><img height="420px" width="1200px" src="images/banner2.png"></a></li>
+						<li><a href="#"><img height="420px" width="1200px" src="images/bannner3.png"></a></li>
+						<li><a href="#"><img height="420px" width="1200px" src="images/banner4.png"></a></li>
+						<li><a href="#"><img height="420px" width="1200px" src="images/banner5.png"></a></li>
+						<li><a href="#"><img height="420px" width="1200px" src="images/bannner图.png"></a></li>
+					</ul>
+					<ol></ol>
+				</div>
+				<div class="dingwei">
+					<div class="focusD" id="arr">
+						<span id="left" onclick="clickLeft()"><</span>
+						<span id="right" onclick="clickHandle()">></span>
+					</div>
+				</div>
+			</div>
+			<ul class="choice clear">
+				<li><span class="front"><img src="images/榜单.png"> 榜单</span><span class="back"><a href="#">你离好工作，就差这节求职课</a></span></li>
+				<li><span class="front"><img src="images/办公及热门.png"> 办公</span><span class="back"><a href="#">怎么做出高逼格、高大上的PPT？</a></span></li>
+				<li id="last"><span class="front"><img src="images/办公及热门.png"> 热门</span><span class="back"><a href="#">掌握了python，就掌握了未来</a></span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="tuijian">
+		<p class="goodclass">推荐好课</p>
+	</div>
+	<div class="jingpin">
+		<ul class="commadation clear">
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/简历撰写.png"></a>
+				<div class="licon">
+					<p class="p1">2.7万次学习</p>
+					<p class="p2"><a href="#"> 一学就会的简历写作方法</a></p>
+					<p class="p3">提高3倍简历通过率</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/excel精通.png"></a>
+				<div class="licon">
+					<p class="p1">2.33万次学习</p>
+					<p class="p2"><a href="#">玩转Excel，从小白变大神</a></p>
+					<p class="p3">电子表格，上手容易精通难</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/开单神器.jpg"></a>
+				<div class="licon">
+					<p class="p1">565次学习</p>
+					<p class="p2"><a href="#">开单神器：销售必修基本功</a></p>
+					<p class="p3">最实用的销售基本功，助你开单大吉</p>
+				</div>
+			</li>
+			<li id="lasttuijian">
+				<a href="#"><img width="285px" height="155px" src="images/职业规划.png"></a>
+				<div class="licon">
+					<p class="p1">3772次学习</p>
+					<p class="p2"><a href="#">一次规划,职场领先一步</a></p>
+					<p class="p3">为你量身打造的职业规划课</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="jingpin2">
+		<ul class="commadation2 clear">
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/营销自己.png"></a>
+				<div class="licon2">
+					<p class="p4">5162次学习</p>
+					<p class="p5"><a href="#"> 营销自己-斩获好工作</a></p>
+					<p class="p6">HR实战专家闯关求职谈薪</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/说话之道.jpg"></a>
+				<div class="licon2">
+					<p class="p4">16.48万次学习</p>
+					<p class="p5"><a href="#">面试中的说话之道</a></p>
+					<p class="p6">巧妙规避语言的“陷阱”</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/求职必备.png"></a>
+				<div class="licon2">
+					<p class="p4">3.51万次学习</p>
+					<p class="p5"><a href="#">资深面试官解密-搞定各类陷阱</a></p>
+					<p class="p6">真实案例窥探面试的秘密</p>
+				</div>
+			</li>
+			<li id="lasttuijian">
+				<a href="#"><img width="285px" height="155px" src="images/谈薪教程.jpg"></a>
+				<div class="licon2">
+					<p class="p4">2.92万次学习</p>
+					<p class="p5"><a href="#">面霸宝-面试谈薪保姆式教程</a></p>
+					<p class="p6">让面试官对你心动</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="jingpin3">
+		<ul class="commadation3 clear">
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/数据透视.jpg"></a>
+				<div class="licon3">
+					<p class="p7">9105次学习</p>
+					<p class="p8"><a href="#"> 从零开始学会数据透视表</a></p>
+					<p class="p9">最实用•最好学的透视表教程</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/刘媛媛.png"></a>
+				<div class="licon3">
+					<p class="p7">7630次学习</p>
+					<p class="p8"><a href="#">刘媛媛亲授：20堂高效沟通课</a></p>
+					<p class="p9">超级演说家总冠军教你说话</p>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img width="285px" height="155px" src="images/入离职.jpg"></a>
+				<div class="licon3">
+					<p class="p7">7312次学习</p>
+					<p class="p8"><a href="#">入职与离职的风险防范</a></p>
+					<p class="p9">工作中可能遭遇的风险防范</p>
+				</div>
+			</li>
+			<li id="lasttuijian">
+				<a href="#"><img width="285px" height="155px" src="images/身价暴涨.png"></a>
+				<div class="licon2">
+					<p class="p7">5933次学习</p>
+					<p class="p8"><a href="#">身价暴涨5倍的7个跳槽技巧</a></p>
+					<p class="p9">让你跳的成功，价值翻倍</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="test">
+		<p class="testmain">考证专题</p>
+	</div>
+	<div class="certificate clear">
+		<ul>
+			<li><a href="#"><img src="images/USCPA.png"></a></li>
+			<li><a href="#"><img src="images/CFA.png"></a></li>
+			<li><a href="#"><img src="images/CMA.png"></a></li>
+			<li><a href="#"><img src="images/CPA.png"></a></li>
+			<li><a href="#"><img src="images/ACCA.png"></a></li>
+		</ul>
+	</div>
+	<div class="certification">
+		<ul class="cercontain">
+			<li>
+				<img src="images/IMCPI国际汉语.jpg">
+				<div class="cercon">
+					<p class="cercon1"><a href="#">IMCPI国际汉语教师 &nbsp&nbsp<span class="teacher">名师</span></a></p>
+					<p class="cercon2">培生认证 全球112个国家认可</p>
+					<p class="cercon3">¥7000+</p>
+				</div>
+			</li>
+			<li>
+				<img src="images/USCPA注会.jpg">
+				<div class="cercon">
+					<p class="cercon1"><a href="#">USCPA注册会计师 &nbsp&nbsp<span class="teacher">名师</span></a></p>
+					<p class="cercon2">世界财会领域黄金证书</p>
+					<p class="cercon3">¥3200+</p>
+				</div>
+			</li>
+			<li>
+				<img src="images/FRM金融.jpg">
+				<div class="cercon">
+					<p class="cercon1"><a href="#">FRM金融风险管理师 &nbsp&nbsp<span class="teacher">名师</span></a></p>
+					<p class="cercon2">金融风险管理岗位的必备牌照</p>
+					<p class="cercon3">¥7400+</p>
+				</div>
+			</li>
+			<li id="lasttuijian">
+				<img src="images/注册税务师.jpg">
+				<div class="cercon">
+					<p class="cercon1"><a href="#">中国注册税务师 &nbsp&nbsp<span class="teacher">名师</span></a></p>
+					<p class="cercon2">新一代财务精英必修的税务认证</p>
+					<p class="cercon3">¥3598+</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="yangshi">
+	<div class="frontend clear">
+		<span class="endpic"><img width="200px" height="60px" src="images/无忧学院Logo.png"></span>
+		<ul class="firstline">
+			<li class="big">帮助中心</li>
+			<ul class="little">
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">更多帮助</a></li>
+				<li><a href="#">意见反馈</a></li>
+				<li><a href="#">隐私政策</a></li>
+			</ul>
+		</ul>
+		<ul class="secondline">
+			<li class="big">关注我们</li>
+			<ul class="little">
+				<li><a href="#">新浪微博</a></li>
+				<li><a href="#">官网微信</a></li>
+			</ul>
+		</ul>
+		<ul class="thirdline">
+			<li class="big">关于无忧学院</li>
+			<ul class="little">
+				<li><a href="#">了解无忧学院</a></li>
+				<li><a href="#">加入无忧学院</a></li>
+				<li><a href="#">Investor Relations</a></li>
+				<li><a href="#">协议及规则公示专区</a></li>
+			</ul>
+		</ul>
+		<ul class="fourline">
+			<li class="big">服务支持</li>
+			<ul class="little">
+				<li><a href="#">推广服务</a></li>
+				<li><a href="#">渠道招商</a></li>
+				<li><a href="#">维权中心</a></li>
+				<li><a href="#">举报平台</a></li>
+			</ul>
+		</ul>
+		<ul class="fiveline">
+			<li class="big">会员服务</li>
+			<ul class="little">
+				<li><a href="#">会员介绍</a></li>
+				<li><a href="#">推广热线</a></li>
+				<li><a href="#">开通课程会员</a></li>
+			</ul>
+		</ul>
+	</div>
+	</div>
+	<div class="end clear">
+		<ul>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">帮助中心</a></li>
+			<li><a href="#">意见反馈</a></li>
+			<li><a href="#">了解无忧学院</a></li>
+			<li><a href="#">加入无忧学院</a></li>
+			<li><a href="#">反欺诈联盟</a></li>
+			<li><a href="#">报案平台</a></li>
+			<li><a href="#">推广服务</a></li>
+			<li><a href="#">维权中心</a></li>
+			<li><a href="#">Investor Relations</a></li>
+		</ul>
+	</div>
+	<div class="back1end clear">
+		<ul>
+			<li><a href="#">2007-2027 wuyou.com版权所有</a></li>
+			<li><a href="#">京公网备案信息11010502000809</a></li>
+			<li><a href="#">京ICP证060409</a></li>
+			<li><a href="#">京ICP备10012706号-3</a></li>
+			<li><a href="#">津文执网文【2019】</a></li>
+			<li><a href="#">乙资测字1111056</a></li>
+		</ul>
+	</div>
+	<div class="back2end clear">
+		<ul>
+			<li><a href="#">人力资源服务许可证</a></li>
+			<li><a href="#">互联网信息服务资格证</a></li>
+			<li><a href="#">广播信息课程制作经营许可证</a></li>
+			<li><a href="#">违法信息举报：758735263682 jubao@wy.com</a></li>
+			<li><a href="#">课程问题举报：wyjb@wy.com</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="back3end">
+		<ul>
+			<li><a href="#"><img src="images/网上举报.png"></a></li>
+			<li id="app"><a href="#"><img src="images/网络举报app.png"></a></li>
+			<li id="yanzheng"><a href="#"><img src="images/身份验证.png"></a></li>
+			<li><a href="#"><img src="images/企业用户信息.png"></a></li>
+			<li><a href="#"><img src="images/防诈骗.png"></a></li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript" src="demo.js"></script>
+</html>
